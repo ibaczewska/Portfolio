@@ -1,9 +1,7 @@
 body {
     background-color: #ebebea;
     padding: 10px;
-    
     font-family: Georgia;
-    
 }
 
 /***** Main nav *****/
@@ -63,7 +61,7 @@ body {
 }
 
 p {
-    text-align: left;
+
     text-shadow: 2px 1px lightgray;
 }
 #ourPassion {
@@ -91,9 +89,9 @@ h4 {
 
 /******footer ******/
 #footerek {
-background-color: #444444;
-    display: inline-block;
-    margin-top:50px;
+    background-color: #444444;
+
+    margin-top: 50px;
 }
 .text-footer {
    padding: 25px 50px;
@@ -101,9 +99,10 @@ background-color: #444444;
     text-shadow: none;
     color: rgba(255, 255, 255, 0.4);
 }
-#right-foot {
-    float: right;
-}
 #left-foot {
     float: left;
 }
+#right-foot {
+    float: right;
+}
+
