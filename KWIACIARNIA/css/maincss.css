@@ -1,5 +1,5 @@
 body {
-    background-color: #addaa1;
+    background-color: #ebebea;
     padding: 10px;
     
     font-family: Georgia;
@@ -46,24 +46,23 @@ body {
 }
 
 /******** O firmie *******/
-.container {
-    background-color: #ffffff;
-    width: 100%;
-    margin-top: 50px;
-}
+
 #aboutUs {
     color: #bbe0b2;
     font-size: 2em;
     font-weight: bold;
-  
+    padding-left: 15px;
+}
+#ourPassion {
+
 }
 .gardener {
     float: left;
-    width: 18%;
-    
+    width: 20%;
+    padding-right: 25px;
 }
 
-.about-text {
+p {
     text-align: left;
     text-shadow: 2px 1px lightgray;
 }
@@ -72,21 +71,39 @@ body {
     padding: 0;
     font-size: 20px;
     color: #f4c6ce;
-    text-shadow: -1px 1px pink;
+    text-shadow: -1px 1px hotpink;
+}
+/******* Offert ********/
+.row-custom {
+    padding: 50px;
 }
 .thumbnail-custom {
     padding:0;
     margin: 5px;
 }
-
-/***** contact ********/
-#contact {
- 
+h4 {
+    color: #f4c6ce;
+    text-shadow: -1px 1px hotpink;
 }
 
+/***** contact ********/
+
+
 /******footer ******/
-.footer {
-    background-color: #444444;
+#footerek {
+background-color: #444444;
+    display: inline-block;
+    margin-top:50px;
+}
+.text-footer {
+   padding: 25px 50px;
     color: white;
-    
+    text-shadow: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+#right-foot {
+    float: right;
+}
+#left-foot {
+    float: left;
 }
