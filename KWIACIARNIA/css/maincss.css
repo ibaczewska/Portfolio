@@ -59,7 +59,7 @@ body {
 }
 
 p {
-
+    color: darkslategray;
     text-shadow: 2px 1px lightgray;
 }
 #ourPassion {
@@ -69,12 +69,18 @@ p {
     color: #f4c6ce;
     text-shadow: -1px 1px hotpink;
 }
+#delete-border-bottom {
+    border-bottom: none;
+}
+#delete-border-top {
+    border-top: none;
+}
 /******* Offert ********/
 .row-custom {
     padding: 50px;
 }
 .thumbnail-custom {
-    padding:0;
+    padding: 0;
     margin: 5px;
 }
 h4 {
@@ -83,16 +89,18 @@ h4 {
 }
 
 /***** contact ********/
-.contact {
+.white-background {
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+}
+.cont {
     margin-left: 50px;
 }
 .address {
     margin-left: 50px;
     color: gray;
 }
-.logocontact {
-    margin: 10px 0 10px 0;
-}
+
 input[type='text']{
     width: 205px;
     border: none;
