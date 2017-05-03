@@ -4,14 +4,15 @@ body {
     font-family: Georgia;
 }
 
+
 /***** Main nav *****/
+
 #logo {
     width: 50px;
 }
 
 #navbar-brand-custom {
     padding: 0;
-
 }
 
 #active-custom {
@@ -34,19 +35,23 @@ body {
 .navbar-default-custom {
     margin: 0;
 }
+
 #to-right {
     text-align: right;
 }
+
+
 /**** Main header ****/
 
 .main-header {
     background-color: #f8ebea;
     text-align: center;
     font-size: 15px;
-    padding: 15px; 
+    padding: 15px;
     margin: 0;
     line-height: 1.5;
 }
+
 
 /******** O firmie *******/
 
@@ -67,6 +72,7 @@ p {
     color: darkslategray;
     text-shadow: 2px 1px lightgray;
 }
+
 #ourPassion {
     text-align: right;
     padding: 0;
@@ -74,50 +80,60 @@ p {
     color: #f4c6ce;
     text-shadow: -1px 1px hotpink;
 }
+
 #delete-border-bottom {
     border-bottom: none;
 }
+
 #delete-border-top {
     border-top: none;
 }
+
+
 /******* Offert ********/
+
 .row-custom {
     margin: 50px 0;
-
 }
+
 .thumbnail-custom {
     padding: 0;
     margin: 5px;
 }
+
 h4 {
     color: #f4c6ce;
     text-shadow: -1px 1px hotpink;
     height: 35px;
     padding: 5px;
 }
+
 #no-margin {
     margin-right: 0;
 }
 
 
 /***** contact ********/
+
 .contact-space {
-   padding: 50px 0;
+    padding: 50px 0;
 }
+
 .white-background {
     background-color: #ffffff;
     border: 1px solid lightgray;
 }
-.cont {
 
+.cont {
     margin-left: 50px;
 }
+
 .address {
     margin-left: 50px;
     color: gray;
 }
 
-input[type='text']{
+input[type='text'] {
     width: 205px;
     border: none;
     color: lightgray;
@@ -125,41 +141,55 @@ input[type='text']{
     margin: 5px;
     border-radius: 3px;
 }
-input[type='submit']{
+
+input[type='submit'] {
     background: #e6e6e6;
     font-size: 1em;
     border-radius: 3px;
     margin: 3px;
     color: #f4c6ce;
     text-shadow: -1px 1px hotpink;
-
 }
-input[type='submit']:hover{
-      background: pink;
+
+input[type='submit']:hover {
+    background: pink;
     font-size: 1em;
     border-radius: 3px;
     margin: 3px;
     color: #f4c6ce;
     text-shadow: -1px 1px hotpink;
 }
+.form {
+    margin-left: 50px;
+}
+@media (max-width: 768px) {
+    input[type='text'] {
+    width: 100%;
+    }
+    .logo-contact {
+        width: 80%;
+    }
 
 
 /******footer ******/
+
 #footerek {
     background-color: #444444;
-
     margin-top: 50px;
+    font-size: 0.7em;
 }
+
 .text-footer {
-   padding: 25px 50px;
+    padding: 25px 50px;
     color: white;
     text-shadow: none;
     color: rgba(255, 255, 255, 0.4);
 }
+
 #left-foot {
     text-align: left;
 }
+
 #right-foot {
     text-align: right;
 }
-
