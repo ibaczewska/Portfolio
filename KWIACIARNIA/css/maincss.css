@@ -123,6 +123,7 @@ h4 {
 .white-background {
     background-color: #ffffff;
     border: 1px solid lightgray;
+
 }
 
 .cont {
@@ -163,13 +164,6 @@ input[type='submit']:hover {
 .form {
     margin-left: 50px;
 }
-@media (max-width: 768px) {
-    input[type='text'] {
-    width: 100%;
-    }
-    .logo-contact {
-        width: 80%;
-    }
 
 
 /******footer ******/
@@ -184,6 +178,5 @@ input[type='submit']:hover {
     padding: 25px 50px;
     color: white;
     text-shadow: none;
-    color: rgba(255, 255, 255, 0.4);
 }
 
