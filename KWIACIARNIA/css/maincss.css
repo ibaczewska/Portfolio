@@ -2,17 +2,19 @@ body {
     background-color: #ebebea;
     padding: 10px;
     font-family: Georgia;
+	box-sizing: border-box;
 }
 
 
 /***** Main nav *****/
 
 #logo {
-    width: 50px;
+    width: 5rem;
 }
 
 #navbar-brand-custom {
     padding: 0;
+	margin-left: 5px;
 }
 
 #active-custom {
@@ -22,9 +24,8 @@ body {
 
 .navbar-ul-custom a {
     color: #777;
-    font-size: 10px;
+    font-size: 1rem;
     margin: 0 20px 0 0;
-    text-align: right;
 }
 
 .navbar-ul-custom a:hover {
@@ -47,8 +48,8 @@ body {
 .main-header {
     background-color: #f8ebea;
     text-align: center;
-    font-size: 15px;
-    padding: 15px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
     margin: 0;
     line-height: 1.5;
 }
@@ -60,18 +61,13 @@ body {
     color: #bbe0b2;
     font-size: 2em;
     font-weight: bold;
-    padding-left: 15px;
+    padding-left: 1.5rem;
 }
 
 .gardener {
     float: left;
     width: 20%;
     padding-right: 25px;
-}
-
-p {
-    color: darkslategray;
-    text-shadow: 2px 1px lightgray;
 }
 
 .ourPassion {
@@ -108,9 +104,33 @@ h4 {
     height: 35px;
     padding: 5px;
 }
+.image-subheading {
+	min-height: 70px;
+}
 
 #no-margin {
     margin-right: 0;
+}
+.img-wrapper {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.img-wrapper {
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	vertical-align: middle;
+}
+
+.img-wrapper:hover {
+	transform:scale(1.2);
+	-ms-transform:scale(1.2); /* IE 9 */
+	-moz-transform:scale(1.2); /* Firefox */
+	-webkit-transform:scale(1.2); /* Safari and Chrome */
+	-o-transform:scale(1.2); /* Opera */
 }
 
 
@@ -120,7 +140,7 @@ h4 {
     padding: 50px 0;
 }
 
-.white-background {
+.main-background {
     background-color: #ffffff;
     border: 1px solid lightgray;
 
@@ -135,20 +155,11 @@ h4 {
     color: gray;
 }
 
-input[type='text'] {
-    width: 205px;
-    border: none;
-    color: lightgray;
-    background: #e6e6e6;
-    margin: 5px;
-    border-radius: 3px;
-}
 
 input[type='submit'] {
     background: #e6e6e6;
     font-size: 1em;
     border-radius: 3px;
-    margin: 3px;
     color: #f4c6ce;
     text-shadow: -1px 1px hotpink;
 }
@@ -171,12 +182,13 @@ input[type='submit']:hover {
 .footer {
     background-color: gray;
     margin-top: 50px;
-    font-size: 0.7em;
+
 }
 
 .text-footer {
-    padding: 25px 50px;
+    padding: 20px 50px;
     color: white;
     text-shadow: none;
+	font-size: 1.3rem;
 }
 
