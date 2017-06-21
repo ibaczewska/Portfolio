@@ -1,0 +1,44 @@
+.mainTitle {
+    margin-left: 25%;
+    font-size: 1.2em;
+}
+
+
+input.invalid {
+    border: 3px solid red;
+}
+
+.info-panel {
+    display: block;
+    position: relative;
+    background: #f2dede;
+    padding: 15px;
+    border: 1px solid #DDDDDD;
+    margin-top: 20px;
+}
+
+.info-panel:before,
+.info-panel:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+}
+
+.info-panel:before {
+    left: 19px;
+    border: 11px solid transparent;
+    border-bottom-color: #f2dede;
+}
+
+.info-panel:after {
+    left: 20px;
+    border: 10px solid transparent;
+    border-bottom-color: #f2dede;
+}
+
+.underline {
+    text-decoration: underline;
+}
