@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //check inputs if empty, if not - added class invalid
+    //check inputs if empty, if true - added class invalid
     $('#firstName, #lastName, #address1, #address2, #townCity').on('blur', function () {
         var input = $(this);
         var sibling = input.siblings('.info-panel');
